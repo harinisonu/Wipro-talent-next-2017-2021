@@ -1,3 +1,4 @@
+/* Hackerrank problem 1 dated 26-05-2020*/
 import java.util.*;
 class vowel {
     public static void main(String[] args) {
