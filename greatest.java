@@ -11,6 +11,6 @@ public class greatest
 		    System.out.println(a);//if a is greater print a
 		}
 		else
-		    System.out.println(b);// if b is greater b is printed
+		    System.out.println(b);//if b is greater b is printed
 	}
 }
