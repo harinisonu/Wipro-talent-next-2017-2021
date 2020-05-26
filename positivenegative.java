@@ -1,3 +1,4 @@
+/* program to accept a number N and print whether it is positive, negative or zero */
 import java.util.*;
 public class positivenegative
 {
