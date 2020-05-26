@@ -4,16 +4,16 @@ public class positivenegative
 	public static void main(String[] args) {
 	    Scanner s =  new Scanner(System.in);
 	    int n = s.nextInt();
-	    //System.out.println(n);
-	    if(n == 0)
+	    //getting input from user
+	    if(n == 0)//checking n is zero
 	    {
-	        System.out.println("zero");
+	        System.out.println("zero");//printing zero
 	    }
-	    else
+	    else//if n is non zero
 	    {
-	        if(n>0)
+	        if(n>0)//if n is positive (+)
 	            System.out.println("positive");
-	        else
+	        else//n is (-)
 	            System.out.println("negative");
 	    }
 	}
