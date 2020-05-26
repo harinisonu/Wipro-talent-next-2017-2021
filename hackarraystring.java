@@ -1,3 +1,4 @@
+/* Hackerrank problem 1 dated 25-05-2020 */
 import java.util.*;
 public class hackarraystring {
     public static void main(String args[] ) {
