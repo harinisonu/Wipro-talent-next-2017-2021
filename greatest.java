@@ -1,3 +1,4 @@
+/* program to accept two numbers and print the greater value of the two */
 import java.util.*;
 public class greatest
 {
