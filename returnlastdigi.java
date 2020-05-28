@@ -1,4 +1,4 @@
-package kexa;
+/* return last digit of given no*/
 import java.util.*;
 public class returnlastdigi
 {
