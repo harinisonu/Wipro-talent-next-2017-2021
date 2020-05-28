@@ -11,8 +11,12 @@ public class returnlastdigi
 	}
 	private static int lastdigi(int n) // odd function declaration
 	{
-		int a = n%10;  // modulus gives reminder which is the last digit
-		return a;	// returns last digit of a no
+		int a;
+		if(n>0)//n is +ve
+			a = n%10;  // modulus gives reminder which is the last digit
+		else
+			a=(-n)%10;
+		return a;	// returns 2nd last digit of a no (a is positive)		
 	}
 
 }
