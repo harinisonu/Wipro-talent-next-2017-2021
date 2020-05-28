@@ -1,3 +1,4 @@
+/* write a func to find whether given input no is even */
 import java.util.*;
 public class Even //creating class named even
 {
