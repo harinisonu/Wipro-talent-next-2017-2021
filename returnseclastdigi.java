@@ -1,5 +1,4 @@
 /* return 2nd last digit of given no*/
-package kexa;
 import java.util.*;
 public class returnseclastdigi
 {
