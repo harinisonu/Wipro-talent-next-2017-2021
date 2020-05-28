@@ -1,19 +1,28 @@
 /* return 2nd last digit of given no*/
+package kexa;
 import java.util.*;
 public class returnseclastdigi
 {
 	public static void main(String args[]) 
 	{
 		Scanner sc = new Scanner(System.in);
-		int n;
-		n = sc.nextInt();
-		System.out.println(lastdigi(n));	//odd function called and printed	
+		int a,b;
+		a = sc.nextInt();
+		b = sc.nextInt();
+		System.out.println(lastdigi(a,b));	//odd function called and printed	
 	}
-	private static int lastdigi(int n) // odd function declaration
+	private static int lastdigi(int a,int b) // odd function declaration
 	{
-		n = n/10; // gives number elminating the last digit
-		int a = n%10;  // gives the 2nd last digit
-		return a;	// returns 2nd last digit of a no
+		int lastdigi1,lastdigi2;
+		if(a>0)
+			lastdigi1 = a%10;
+		else
+			lastdigi1 = (-a)%10;
+		if(b>0)
+			lastdigi2 = b%10;
+		else
+			lastdigi2 = (-b)%10;
+		return (lastdigi1+lastdigi2);
 	}
 
 }
