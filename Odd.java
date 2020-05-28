@@ -1,4 +1,4 @@
-package kexa;
+/* write a func to find whether given input no is odd */
 import java.util.*;
 public class Odd 
 {
