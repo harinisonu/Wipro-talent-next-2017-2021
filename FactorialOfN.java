@@ -1,7 +1,7 @@
 /* Design an algorithm to calculate the factorial of a number N. The value of N is provided as an input by the user. */
 
 import java.util.*;
-public class Program
+public class FactorialOfN
 {
 	public static void main(String[] args) 
 	{
