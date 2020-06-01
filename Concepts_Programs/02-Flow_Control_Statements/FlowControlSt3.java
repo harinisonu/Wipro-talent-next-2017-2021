@@ -15,13 +15,13 @@ public class FlowControlSt3
 	{		
 		if(args.length == 0)
 		{
-			System.out.print("No Values");
+			System.out.print("No Values"); // has not received command line arguments
 		}
 		else
 		{
 			for(int i=0; i<args.length;i++)
 			{
-				System.out.print(args[i]+",");
+				System.out.print(args[i]+","); // print all values in command line arguments seperated by comma
 			}
 		}
 
