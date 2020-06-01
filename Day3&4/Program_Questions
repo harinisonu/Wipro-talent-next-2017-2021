@@ -1,0 +1,60 @@
+Day 3 Programs:
+
+***********************************************************************************************************************************
+
+1)
+
+Is Even?
+Write a function to find whether the given input number is Even.
+If the given number is even, the function should return 2 else it should return 1.
+Note: The number passed to the function can be negative, positive or zero. Zero should be treated as Even.
+
+2)
+
+Is Odd?
+Write a function to find whether the given input number is Odd.
+If the given number is odd, the function should return 2 else it should return 1.
+Note: The number passed to the function can be negative, positive or zero. Zero should NOT be treated as odd.
+
+3)
+
+ Return last digit of the given number
+Write a function that returns the last digit of the given number.
+Last digit is being referred to the least significant digit i.e. the digit in the ones (units) place in the given number.
+The last digit should be returned as a positive number.
+for example,
+if the given number is 197, the last digit is 7
+if the given number is -197, the last digit is 7
+
+4)
+
+ Return second last digit of the given number
+Write a function that returns the second last digit of the given number.
+Second last digit is being referred to the digit in the tens place in the given number.
+for example,
+if the given number is 197, the second last digit is 9
+Note1 - The second last digit should be returned as a positive number.
+i.e. if the given number is -197, the second last digit is 9
+Note2 - If the given number is a single digit number, then the second last digit does not exist. In such cases, the function should return -1.
+i.e. if the given number is 5, the second last digit should be returned as -1
+
+5)
+
+ Sum of last digits of two given numbers
+Rohit wants to add the last digits of two given numbers.
+For example,
+If the given numbers are 267 and 154, the output should be 11.
+Below is the explanation -
+Last digit of the 267 is 7
+Last digit of the 154 is 4
+Sum of 7 and 4 = 11
+Write a program to help Rohit achieve this for any given two numbers.
+The prototype of the method should be -
+int addLastDigits(int input1, int input2);
+where input1 and input2 denote the two numbers whose last digits are to be added.
+Note: The sign of the input numbers should be ignored.
+i.e.
+if the input numbers are 267 and 154, the sum of last two digits should be 11
+if the input numbers are 267 and -154, the sum of last two digits should be 11
+if the input numbers are -267 and 154, the sum of last two digits should be 11
+if the input numbers are -267 and -154, the sum of last two digits should be 11
