@@ -16,7 +16,7 @@ public class FlowControlSt4
 	{		
 		char n1='a';
 		char n2='e';
-		if(n1<n2)
+		if(n1<n2) //if n1 is less than n2
 			System.out.print(n1+","+n2);
 		else
 			System.out.print(n2+","+n1);
