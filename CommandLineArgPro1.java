@@ -2,7 +2,7 @@
 a specific way as given below.*/
 
 import java.util.*;
-public class CommandLineArg 
+public class CommandLineArgPro1
 {
 	public static void main(String[] args) 
 	{
