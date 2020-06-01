@@ -6,7 +6,7 @@ public class CommandLineArgPro1
 {
 	public static void main(String[] args) 
 	{
-	    System.out.println(args[0]+" Technology "+args[1]);  
+	    System.out.println(args[0]+" Technology "+args[1]);  //prints strings of command line arguments
 		
 	}
 
