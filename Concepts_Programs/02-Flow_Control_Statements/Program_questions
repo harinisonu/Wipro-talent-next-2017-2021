@@ -123,3 +123,62 @@ Example5:
 C:\>java Sample 7
 O/P Expected : 7 is a prime number
 Topics Covered: For Loop
+
+15)
+
+Write a program to add all the values in a given number and print. Ex: 1234->10
+Topics Covered: For Loop
+
+16)
+
+Write a program to print * in Floyds format (using for and while loop)
+*
+* *
+* * *
+Example1:
+C:\>java Sample
+O/P Expected : Please enter an integer number
+Example1:
+C:\>java Sample 3
+O/P Expected :
+*
+* *
+* * *
+Topics Covered: For Loop
+
+17)
+
+Write a program to reverse a given number and print
+Eg1)
+I/P: 1234
+O/P:4321
+Eg2)
+I/P:1004
+O/P:4001
+Topics Covered: While Loop
+
+18)
+
+Write a Java program to find if the given number is palindrome or not
+Example1:
+C:\>java Sample 110011
+O/P Expected : 110011 is a palindrome
+Example2:
+C:\>java Sample 1234
+O/P Expected : 1234 is not a palindrome
+Topics Covered: While Loop
+
+19)
+
+Write a program to print first 5 values which are divisible by 2, 3, and 5.
+Topics Covered: While Loop
+
+20)
+
+Write a program that displays a menu with options 1. Add 2. Sub
+Based on the options chosen, read 2 numbers and perform the relevant operation. After
+performing the operation, the program should ask the user if he wants to continue. If the user
+presses y or Y, then the program should continue displaying the menu else the program should
+terminate.
+[ Note: Use Scanner class, you can take help from the trainer regarding the same ]
+Topics Covered: Do While.
